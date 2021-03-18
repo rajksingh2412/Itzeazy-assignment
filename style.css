@@ -1,0 +1,304 @@
+* {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+
+  /* color: rgba(245, 72, 72, 1); */
+}
+p {
+  text-align: justify;
+}
+.red {
+  color: red;
+}
+.left {
+  text-align: left;
+}
+.uppercase {
+  font-size: x-large;
+  text-align: center;
+}
+.text-small {
+  font-size: small;
+}
+.text-justify {
+  text-align: justify;
+}
+/* header at top */
+li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 2%;
+  /* float: left; */
+}
+/* header ul li:first-child {
+  margin-left: 30%;
+} */
+
+.half-width {
+  width: 30%;
+  margin-left: 35%;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  box-shadow: 5px 10px 8px #888888;
+  padding: 0px 10px 10px 0px;
+}
+
+.part1 {
+  margin-top: 50px;
+}
+
+.active {
+  color: red;
+  font-weight: bolder;
+}
+
+/* form below nav */
+.input-box,
+.button {
+  box-shadow: 5px 10px 18px #888888;
+  border: none;
+}
+.input-box {
+  height: 30px;
+  width: 60%;
+}
+.button {
+  height: 34px;
+  width: 30%;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+}
+
+/* cities image gallery */
+.cities li {
+  background-color: red;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 15px 25px 8px 25px;
+  width: auto;
+  height: 30px;
+  border-radius: 2rem;
+}
+.pics {
+  text-align: justify;
+  /* background-color: red; */
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.images {
+  padding: 10px;
+  width: 15rem;
+  height: 10rem;
+  border-radius: 20px;
+  opacity: 0.8;
+  margin-left: 30px;
+  /* color: rgba(245, 72, 72, 1); */
+  color: red;
+  font-size: larger;
+  color: black;
+  font-weight: bolder;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+.Bangalore {
+  background-image: url(images/Bangalore.jpg);
+  margin: 10px;
+  width: 15rem;
+  height: 10rem;
+}
+.Delhi {
+  background-image: url(images/Delhi.jpg);
+  width: 15rem;
+  height: 10rem;
+}
+.Chennai {
+  background-image: url(images/Chennai.jpg);
+  width: 15rem;
+  height: 10rem;
+}
+.Hyderabad {
+  background-image: url(images/Hyderabad.jpg);
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  width: 15rem;
+  height: 10rem;
+}
+
+/* for three W's */
+.table-noc .first-noc {
+  margin-left: 0px;
+}
+
+.table-noc ul {
+  width: 80%;
+  margin: auto;
+  background-color: aqua;
+}
+
+.table-noc li {
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  /* background-color: rgba(233, 16, 16, 1); */
+  background-color: red;
+  color: white;
+}
+
+/* for how to apply NOC*/
+.numbers {
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 0px;
+  /* background-color: blueviolet; */
+}
+.numbers li {
+  margin-left: 0px;
+  list-style: 1;
+  text-align: left;
+}
+
+/* FAQs */
+.FAQ {
+  background-color: #e8e8e8;
+  width: 50%;
+  margin: auto;
+}
+
+.plus {
+  font-size: 50px;
+  background-color: red;
+  padding: 0px 35px;
+  color: white;
+}
+
+/* footer starts here */
+footer {
+  margin: 0px;
+  padding: 0px;
+  height: 400px;
+  padding-left: 10%;
+  background-color: red;
+  color: white;
+}
+footer div {
+  float: left;
+  margin-left: 50px;
+}
+.footer-data table tr {
+  padding: 50px;
+}
+
+.footer-data table tr td {
+  margin: 20px;
+  padding: 20px 20px;
+  padding-bottom: 50px;
+}
+
+.footer-form {
+  margin: 50px 50px;
+  display: inline-block;
+  width: 400px;
+}
+
+.footer-form .footer-input-box {
+  height: 30px;
+  width: 70%;
+  float: left;
+}
+.footer-form .footer-button {
+  height: 34px;
+  width: 28%;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  border: 2px solid white;
+  float: right;
+}
+
+/* for tablets */
+@media screen and (max-width: 768px) {
+  .content {
+    /* background-color: green; */
+    position: relative;
+    bottom: 150px;
+    padding-top: 10px;
+  }
+
+  header {
+    visibility: hidden;
+  }
+  .half-width {
+    width: 90%;
+    margin-left: 5%;
+    align-items: center;
+  }
+  .images {
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    height: 150px;
+    border-radius: 20px;
+  }
+  .table-noc {
+    padding: 0px;
+    margin: 0px;
+    /* background-color: hotpink; */
+  }
+
+  .table-noc ul {
+    width: 100%;
+
+    background-color: aqua;
+  }
+  .uppercase {
+    font-size: 20px;
+  }
+
+  .table-noc li {
+    width: 25%;
+    height: auto;
+    margin-left: 15px;
+    padding: 12px;
+  }
+
+  footer {
+    height: 600px;
+  }
+}
+
+/* for phone */
+@media screen and (max-width: 414px) {
+  * {
+    width: 100;
+    padding: 10px;
+    margin: 0px;
+  }
+  .content {
+    /* background-color: yellow; */
+    position: relative;
+    bottom: 150px;
+    padding-top: 10px;
+  }
+  .table-noc li {
+    width: 90%;
+    height: auto;
+    margin-left: 30px;
+    padding: 12px;
+  }
+  footer {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .footer-data {
+    margin-left: 0px;
+  }
+}
